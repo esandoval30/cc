@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Sample Cases</fullName>
+        <default>false</default>
+        <label>Sample Cases</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trial</fullName>
+        <default>false</default>
+        <label>Trial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SAME DAY SERVICE STATUS</fullName>
+        <default>false</default>
+        <label>SAME DAY SERVICE STATUS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST DEBRIS REMOVAL - PUBLIC PROPERTY</fullName>
+        <default>false</default>
+        <label>REQUEST DEBRIS REMOVAL - PUBLIC PROPERTY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MISSED WHITE GOODS SERVICE/TIRES</fullName>
+        <default>false</default>
+        <label>MISSED WHITE GOODS SERVICE/TIRES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TALL GRASS</fullName>
+        <default>false</default>
+        <label>TALL GRASS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>JUNK, INOPERABLE, OR ABANDONED VEHICLE</fullName>
+        <default>false</default>
+        <label>JUNK, INOPERABLE, OR ABANDONED VEHICLE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MISSED GARBAGE SERVICE DAY (GENERAL PICK-UP)</fullName>
+        <default>false</default>
+        <label>MISSED GARBAGE SERVICE DAY (GENERAL PICK-UP)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MAJOR SIGNAL ISSUE</fullName>
+        <default>false</default>
+        <label>MAJOR SIGNAL ISSUE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MISSED WOODY WASTE SERVICE</fullName>
+        <default>false</default>
+        <label>MISSED WOODY WASTE SERVICE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DAMAGED GARBAGE CART</fullName>
+        <default>false</default>
+        <label>DAMAGED GARBAGE CART</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MISSED DEAD ANIMAL PICK-UP</fullName>
+        <default>false</default>
+        <label>MISSED DEAD ANIMAL PICK-UP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>STREET LIGHT OUTAGE OR DAMAGE</fullName>
+        <default>false</default>
+        <label>STREET LIGHT OUTAGE OR DAMAGE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MISSED RECYCLING SERVICE</fullName>
+        <default>false</default>
+        <label>MISSED RECYCLING SERVICE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>INSIDE RESIDENTIAL BACKUP</fullName>
+        <default>false</default>
+        <label>INSIDE RESIDENTIAL BACKUP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LIBERTY PUMP ISSUE</fullName>
+        <default>false</default>
+        <label>LIBERTY PUMP ISSUE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MISSING GARBAGE CART</fullName>
+        <default>false</default>
+        <label>MISSING GARBAGE CART</label>
+    </standardValue>
+    <standardValue>
+        <fullName>JUNK, TRASH, OR DEBRIS ON PRIVATE PROPERTY</fullName>
+        <default>false</default>
+        <label>JUNK, TRASH, OR DEBRIS ON PRIVATE PROPERTY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST A BARRICADE</fullName>
+        <default>false</default>
+        <label>REQUEST A BARRICADE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>STOLEN RECYCLING CART</fullName>
+        <default>false</default>
+        <label>STOLEN RECYCLING CART</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST FOR STREET GRADING</fullName>
+        <default>false</default>
+        <label>REQUEST FOR STREET GRADING</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NEW RESIDENT RECYCLING CART REQUEST</fullName>
+        <default>false</default>
+        <label>NEW RESIDENT RECYCLING CART REQUEST</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NON-ROADSIDE VEGETATION IN A DITCH</fullName>
+        <default>false</default>
+        <label>NON-ROADSIDE VEGETATION IN A DITCH</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MISSED HANDPILE SERVICE</fullName>
+        <default>false</default>
+        <label>MISSED HANDPILE SERVICE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>INSIDE COMMERCIAL BACKUP</fullName>
+        <default>false</default>
+        <label>INSIDE COMMERCIAL BACKUP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MANHOLE ISSUE</fullName>
+        <default>false</default>
+        <label>MANHOLE ISSUE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST PICK-UP OF UNWANTED GARBAGE CART</fullName>
+        <default>false</default>
+        <label>REQUEST PICK-UP OF UNWANTED GARBAGE CART</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CONCRETE ROAD REPAIRS NEEDED</fullName>
+        <default>false</default>
+        <label>CONCRETE ROAD REPAIRS NEEDED</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MISSED RECYCLING SERVICE FOR DISABLED CUSTOMER</fullName>
+        <default>false</default>
+        <label>MISSED RECYCLING SERVICE FOR DISABLED CUSTOMER</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NEW RESIDENT REQUEST FOR GARBAGE CART</fullName>
+        <default>false</default>
+        <label>NEW RESIDENT REQUEST FOR GARBAGE CART</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST ADDITIONAL RECYCLING CART</fullName>
+        <default>false</default>
+        <label>REQUEST ADDITIONAL RECYCLING CART</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST TRAFFIC SIGN</fullName>
+        <default>false</default>
+        <label>REQUEST TRAFFIC SIGN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PICK UP UNWANTED RECYCLING CART</fullName>
+        <default>false</default>
+        <label>PICK UP UNWANTED RECYCLING CART</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OUTSIDE OVERFLOW</fullName>
+        <default>false</default>
+        <label>OUTSIDE OVERFLOW</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST DISABLED CUSTOMER PICK-UP SERVICES</fullName>
+        <default>false</default>
+        <label>REQUEST DISABLED CUSTOMER PICK-UP SERVICES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>POTHOLE</fullName>
+        <default>false</default>
+        <label>POTHOLE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NON-ROADSIDE DRAINAGE ISSUE</fullName>
+        <default>false</default>
+        <label>NON-ROADSIDE DRAINAGE ISSUE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MISSED GARBAGE PICKUP FOR DISABLED CUSTOMER</fullName>
+        <default>false</default>
+        <label>MISSED GARBAGE PICKUP FOR DISABLED CUSTOMER</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DAMAGED RECYCLING CART</fullName>
+        <default>false</default>
+        <label>DAMAGED RECYCLING CART</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST FOR MOWING</fullName>
+        <default>false</default>
+        <label>REQUEST FOR MOWING</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROADSIDE DRAINAGE ISSUE</fullName>
+        <default>false</default>
+        <label>ROADSIDE DRAINAGE ISSUE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST REMOVAL/TRIMMING OF TREE</fullName>
+        <default>false</default>
+        <label>REQUEST REMOVAL/TRIMMING OF TREE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NON-ROADSIDE EROSION ISSUE</fullName>
+        <default>false</default>
+        <label>NON-ROADSIDE EROSION ISSUE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST BARRICADE PICK-UP</fullName>
+        <default>false</default>
+        <label>REQUEST BARRICADE PICK-UP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CAVE-IN/SINK HOLE (DRAINAGE RELATED)</fullName>
+        <default>false</default>
+        <label>CAVE-IN/SINK HOLE (DRAINAGE RELATED)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DIRTY OR UNFENCED SWIMMING POOL</fullName>
+        <default>false</default>
+        <label>DIRTY OR UNFENCED SWIMMING POOL</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CAVE-IN/SINK HOLE (SEWER OR DRAINAGE RELATED)</fullName>
+        <default>false</default>
+        <label>CAVE-IN/SINK HOLE (SEWER OR DRAINAGE RELATED)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PROPERTY NEEDS TO BE CONDEMNED OR TORN DOWN</fullName>
+        <default>false</default>
+        <label>PROPERTY NEEDS TO BE CONDEMNED OR TORN DOWN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZONING CODE VIOLATION</fullName>
+        <default>false</default>
+        <label>ZONING CODE VIOLATION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROAD BUCKLE/BLOWOUT/FAULT</fullName>
+        <default>false</default>
+        <label>ROAD BUCKLE/BLOWOUT/FAULT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SIDEWALK ISSUE</fullName>
+        <default>false</default>
+        <label>SIDEWALK ISSUE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BUILDING CODE VIOLATIONS</fullName>
+        <default>false</default>
+        <label>BUILDING CODE VIOLATIONS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PROPERTY MISSING WINDOWS OR DOORS</fullName>
+        <default>false</default>
+        <label>PROPERTY MISSING WINDOWS OR DOORS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TIRE DUMPING</fullName>
+        <default>false</default>
+        <label>TIRE DUMPING</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROAD STRIPING NEEDED</fullName>
+        <default>false</default>
+        <label>ROAD STRIPING NEEDED</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MINOR SIGNAL ISSUE</fullName>
+        <default>false</default>
+        <label>MINOR SIGNAL ISSUE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>STANDING WATER</fullName>
+        <default>false</default>
+        <label>STANDING WATER</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST TRAFFIC CALMING STUDY</fullName>
+        <default>false</default>
+        <label>REQUEST TRAFFIC CALMING STUDY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST STREET NAME SIGN</fullName>
+        <default>false</default>
+        <label>REQUEST STREET NAME SIGN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST ADDITIONAL GARBAGE CART</fullName>
+        <default>false</default>
+        <label>REQUEST ADDITIONAL GARBAGE CART</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST TO EXCHANGE GARBAGE CART (NON-DAMAGED)</fullName>
+        <default>false</default>
+        <label>REQUEST TO EXCHANGE GARBAGE CART (NON-DAMAGED)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST REMOVAL OF DEBRIS IN A DITCH/WATERWAY</fullName>
+        <default>false</default>
+        <label>REQUEST REMOVAL OF DEBRIS IN A DITCH/WATERWAY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DAMAGED STREET NAME SIGN</fullName>
+        <default>false</default>
+        <label>DAMAGED STREET NAME SIGN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RESIDENTIAL DRAINAGE DISPUTE (CONSTRUCTION-RELATED)</fullName>
+        <default>false</default>
+        <label>RESIDENTIAL DRAINAGE DISPUTE (CONSTRUCTION-RELATED)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DAMAGED TRAFFIC SIGN</fullName>
+        <default>false</default>
+        <label>DAMAGED TRAFFIC SIGN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CATCH BASIN REPAIRS NEEDED</fullName>
+        <default>false</default>
+        <label>CATCH BASIN REPAIRS NEEDED</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST STREET SWEEPING</fullName>
+        <default>false</default>
+        <label>REQUEST STREET SWEEPING</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FENCE LINE/SERVITUDE ISSUES</fullName>
+        <default>false</default>
+        <label>FENCE LINE/SERVITUDE ISSUES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SEWER ODOR</fullName>
+        <default>false</default>
+        <label>SEWER ODOR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DAMAGED DRIVEWAY</fullName>
+        <default>false</default>
+        <label>DAMAGED DRIVEWAY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST DEBRIS REMOVAL - UNOCCUPIED PROPERTY</fullName>
+        <default>false</default>
+        <label>REQUEST DEBRIS REMOVAL - UNOCCUPIED PROPERTY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST A TRAFFIC SIGNAL STUDY</fullName>
+        <default>false</default>
+        <label>REQUEST A TRAFFIC SIGNAL STUDY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LARGE DEAD ANIMAL FOR PICK-UP</fullName>
+        <default>false</default>
+        <label>LARGE DEAD ANIMAL FOR PICK-UP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CONSTRUCTION TRASH/DEBRIS IN PUBLIC RIGHT-OF-WAY</fullName>
+        <default>false</default>
+        <label>CONSTRUCTION TRASH/DEBRIS IN PUBLIC RIGHT-OF-WAY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DAMAGE TO PERSONAL PROPERTY</fullName>
+        <default>false</default>
+        <label>DAMAGE TO PERSONAL PROPERTY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MISSING/DAMAGED STORMWATER DRAIN LID</fullName>
+        <default>false</default>
+        <label>MISSING/DAMAGED STORMWATER DRAIN LID</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NEW CONSTRUCTION DRAINAGE ISSUES</fullName>
+        <default>false</default>
+        <label>NEW CONSTRUCTION DRAINAGE ISSUES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TREE IN ROAD</fullName>
+        <default>false</default>
+        <label>TREE IN ROAD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ROADSIDE EROSION ISSUE</fullName>
+        <default>false</default>
+        <label>ROADSIDE EROSION ISSUE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>STORMDRAIN ISSUES</fullName>
+        <default>false</default>
+        <label>STORMDRAIN ISSUES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CHEMICAL SPILL OR LEAK</fullName>
+        <default>false</default>
+        <label>CHEMICAL SPILL OR LEAK</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FLOODING ISSUE</fullName>
+        <default>false</default>
+        <label>FLOODING ISSUE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST A NO DUMPING SIGN</fullName>
+        <default>false</default>
+        <label>REQUEST A NO DUMPING SIGN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST SAFETY STUDY</fullName>
+        <default>false</default>
+        <label>REQUEST SAFETY STUDY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BLIND STREET CORNER</fullName>
+        <default>false</default>
+        <label>BLIND STREET CORNER</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MISSING MANHOLE COVER</fullName>
+        <default>false</default>
+        <label>MISSING MANHOLE COVER</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NEW CONSTRUCTION TRACKING MUD/DIRT ONTO STREETS</fullName>
+        <default>false</default>
+        <label>NEW CONSTRUCTION TRACKING MUD/DIRT ONTO STREETS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REPAIR A BROKEN STREET CURB</fullName>
+        <default>false</default>
+        <label>REPAIR A BROKEN STREET CURB</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ILLEGAL SIGN IN THE PUBLIC RIGHT-OF-WAY</fullName>
+        <default>false</default>
+        <label>ILLEGAL SIGN IN THE PUBLIC RIGHT-OF-WAY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PIPE REPAIRS NEEDED</fullName>
+        <default>false</default>
+        <label>PIPE REPAIRS NEEDED</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ILLEGAL DUMPING OF TRASH/SOLID WASTE</fullName>
+        <default>false</default>
+        <label>ILLEGAL DUMPING OF TRASH/SOLID WASTE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST A STREET LIGHT</fullName>
+        <default>false</default>
+        <label>REQUEST A STREET LIGHT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SHOULDER REPAIR NEEDED</fullName>
+        <default>false</default>
+        <label>SHOULDER REPAIR NEEDED</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DEFACED SIDEWALK</fullName>
+        <default>false</default>
+        <label>DEFACED SIDEWALK</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GRAVEL DRIVE ISSUES</fullName>
+        <default>false</default>
+        <label>GRAVEL DRIVE ISSUES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LITTER FOR PICK-UP ON PUBLIC PROPERTY</fullName>
+        <default>false</default>
+        <label>LITTER FOR PICK-UP ON PUBLIC PROPERTY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CONSTRUCTION SITE ISSUES</fullName>
+        <default>false</default>
+        <label>CONSTRUCTION SITE ISSUES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NEW CONSTRUCTION TRASH/DEBRIS ISSUES</fullName>
+        <default>false</default>
+        <label>NEW CONSTRUCTION TRASH/DEBRIS ISSUES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NEW CONSTRUCTION EROSION ISSUES</fullName>
+        <default>false</default>
+        <label>NEW CONSTRUCTION EROSION ISSUES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GUARDRAIL ISSUES</fullName>
+        <default>false</default>
+        <label>GUARDRAIL ISSUES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CART LEFT AT CURBSIDE</fullName>
+        <default>false</default>
+        <label>CART LEFT AT CURBSIDE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PUMP STATION FAILURE</fullName>
+        <default>false</default>
+        <label>PUMP STATION FAILURE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SIGN WITHOUT A PERMIT</fullName>
+        <default>false</default>
+        <label>SIGN WITHOUT A PERMIT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PUBLIC TRASH RECEPTACLE MAINTENANCE</fullName>
+        <default>false</default>
+        <label>PUBLIC TRASH RECEPTACLE MAINTENANCE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>WATER QUALITY ISSUES</fullName>
+        <default>false</default>
+        <label>WATER QUALITY ISSUES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>UTILITY ISSUES (EXISTING UTILITIES BEING RELOCATED)</fullName>
+        <default>false</default>
+        <label>UTILITY ISSUES (EXISTING UTILITIES BEING RELOCATED)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CENTRAL BUSINESS DISTRICT WASTE ORDINANCE VIOLATION</fullName>
+        <default>false</default>
+        <label>CENTRAL BUSINESS DISTRICT WASTE ORDINANCE VIOLATION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SCHOOL ZONE/SCHOOL FLASHER ISSUE</fullName>
+        <default>false</default>
+        <label>SCHOOL ZONE/SCHOOL FLASHER ISSUE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REQUEST PUMP STATION MOWING</fullName>
+        <default>false</default>
+        <label>REQUEST PUMP STATION MOWING</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ILLEGAL PLACEMENT OF CULVERTS/PIPES</fullName>
+        <default>false</default>
+        <label>ILLEGAL PLACEMENT OF CULVERTS/PIPES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REPAIR A BIKE PATH</fullName>
+        <default>false</default>
+        <label>REPAIR A BIKE PATH</label>
+    </standardValue>
+    <standardValue>
+        <fullName>UTILITY ISSUES (NEW UTILITIES BEING INSTALLED)</fullName>
+        <default>false</default>
+        <label>UTILITY ISSUES (NEW UTILITIES BEING INSTALLED)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PORT O POTTY ISSUES</fullName>
+        <default>false</default>
+        <label>PORT O POTTY ISSUES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DAMAGED NO DUMPING SIGN</fullName>
+        <default>false</default>
+        <label>DAMAGED NO DUMPING SIGN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZZZ (EXPIRED DO NOT USE) REQUEST SPECIAL DEBRIS COLLECTION</fullName>
+        <default>false</default>
+        <label>ZZZ (EXPIRED DO NOT USE) REQUEST SPECIAL DEBRIS COLLECTION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VEHICLE GAS TANK DUMPING/STOCKPILING</fullName>
+        <default>false</default>
+        <label>VEHICLE GAS TANK DUMPING/STOCKPILING</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZZZ (EXPIRED DO NOT USE) REQUEST DISABLED DOORFRONT RECYCLING SERVICE</fullName>
+        <default>false</default>
+        <label>ZZZ (EXPIRED DO NOT USE) REQUEST DISABLED DOORFRONT RECYCLING SERVICE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NEW CONSTRUCTION SIDEWALK FAILURE ISSUES</fullName>
+        <default>false</default>
+        <label>NEW CONSTRUCTION SIDEWALK FAILURE ISSUES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LAND CLEARING ISSUES</fullName>
+        <default>false</default>
+        <label>LAND CLEARING ISSUES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NEW CONSTRUCTION ROAD FAILURE ISSUES</fullName>
+        <default>false</default>
+        <label>NEW CONSTRUCTION ROAD FAILURE ISSUES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ILLEGAL LANDFILLING</fullName>
+        <default>false</default>
+        <label>ILLEGAL LANDFILLING</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PARADE/RACE CLEAN-UP ROUTE ISSUES</fullName>
+        <default>false</default>
+        <label>PARADE/RACE CLEAN-UP ROUTE ISSUES</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CAVE-IN/SINK HOLE (SEWER RELATED)</fullName>
+        <default>false</default>
+        <label>CAVE-IN/SINK HOLE (SEWER RELATED)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SIDEWALK CAFE ISSUES</fullName>
+        <default>false</default>
+        <label>SIDEWALK CAFE ISSUES</label>
+    </standardValue>
+</StandardValueSet>

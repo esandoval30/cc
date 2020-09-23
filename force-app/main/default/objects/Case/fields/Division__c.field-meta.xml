@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Division__c</fullName>
+    <externalId>false</externalId>
+    <label>Division</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SANITATION</fullName>
+                <default>false</default>
+                <label>SANITATION</label>
+            </value>
+            <value>
+                <fullName>LANDSCAPE MAINTENANCE</fullName>
+                <default>false</default>
+                <label>LANDSCAPE MAINTENANCE</label>
+            </value>
+            <value>
+                <fullName>BLIGHT ENFORCEMENT</fullName>
+                <default>false</default>
+                <label>BLIGHT ENFORCEMENT</label>
+            </value>
+            <value>
+                <fullName>TRAFFIC ENGINEERING</fullName>
+                <default>false</default>
+                <label>TRAFFIC ENGINEERING</label>
+            </value>
+            <value>
+                <fullName>RECYCLING</fullName>
+                <default>false</default>
+                <label>RECYCLING</label>
+            </value>
+            <value>
+                <fullName>WW OPERATIONS</fullName>
+                <default>false</default>
+                <label>WW OPERATIONS</label>
+            </value>
+            <value>
+                <fullName>STREET MAINTENANCE</fullName>
+                <default>false</default>
+                <label>STREET MAINTENANCE</label>
+            </value>
+            <value>
+                <fullName>DRAINAGE MAINTENANCE</fullName>
+                <default>false</default>
+                <label>DRAINAGE MAINTENANCE</label>
+            </value>
+            <value>
+                <fullName>PERMITS &amp; INSPECTIONS</fullName>
+                <default>false</default>
+                <label>PERMITS &amp; INSPECTIONS</label>
+            </value>
+            <value>
+                <fullName>ENVIRONMENTAL</fullName>
+                <default>false</default>
+                <label>ENVIRONMENTAL</label>
+            </value>
+            <value>
+                <fullName>SUBDIVISIONS</fullName>
+                <default>false</default>
+                <label>SUBDIVISIONS</label>
+            </value>
+            <value>
+                <fullName>FIELD ENGINEERING</fullName>
+                <default>false</default>
+                <label>FIELD ENGINEERING</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

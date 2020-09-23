@@ -1,0 +1,28 @@
+{
+  "orgName": "Case Classification Org",
+  "edition": "Enterprise",
+  "description": "Hands On with Einstein Case Classification",
+  "features": ["EinsteinAnalyticsPlus","EinsteinBuilderFree","AnalyticsAdminPerms","CaseClassification","DevelopmentWave",
+              "EinsteinBuilder","LightningServiceConsole","ServiceCloud","ServiceUser"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "securitySettings": {
+      "enableAuditFieldsInactiveOwner":true,
+      "passwordPolicies": {
+        "enableSetPasswordInApi": true
+      }
+    },
+    "analyticsSettings": {
+      "enableInsights": true,
+      "enableWaveRecordNavigation":true,
+      "enableWaveReplication":true,
+      "enableWaveTemplate":true
+    }
+    
+  }
+}

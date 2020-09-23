@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Parent Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GARBAGE</fullName>
+                <default>false</default>
+                <label>GARBAGE</label>
+            </value>
+            <value>
+                <fullName>BLIGHTED PROPERTIES</fullName>
+                <default>false</default>
+                <label>BLIGHTED PROPERTIES</label>
+            </value>
+            <value>
+                <fullName>STREET/TRAFFIC ISSUES</fullName>
+                <default>false</default>
+                <label>STREET/TRAFFIC ISSUES</label>
+            </value>
+            <value>
+                <fullName>RECYCLING</fullName>
+                <default>false</default>
+                <label>RECYCLING</label>
+            </value>
+            <value>
+                <fullName>SEWER/WASTEWATER</fullName>
+                <default>false</default>
+                <label>SEWER/WASTEWATER</label>
+            </value>
+            <value>
+                <fullName>ROAD MAINTENANCE ISSUES</fullName>
+                <default>false</default>
+                <label>ROAD MAINTENANCE ISSUES</label>
+            </value>
+            <value>
+                <fullName>DRAINAGE, EROSION, FLOODING OR HOLES</fullName>
+                <default>false</default>
+                <label>DRAINAGE, EROSION, FLOODING OR HOLES</label>
+            </value>
+            <value>
+                <fullName>MOWING AND TREE ISSUES</fullName>
+                <default>false</default>
+                <label>MOWING AND TREE ISSUES</label>
+            </value>
+            <value>
+                <fullName>BUILDING CODE/ZONING VIOLATIONS</fullName>
+                <default>false</default>
+                <label>BUILDING CODE/ZONING VIOLATIONS</label>
+            </value>
+            <value>
+                <fullName>ENVIRONMENTAL ISSUES</fullName>
+                <default>false</default>
+                <label>ENVIRONMENTAL ISSUES</label>
+            </value>
+            <value>
+                <fullName>NEIGHBORHOOD/SUBDIVISION ISSUES</fullName>
+                <default>false</default>
+                <label>NEIGHBORHOOD/SUBDIVISION ISSUES</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
