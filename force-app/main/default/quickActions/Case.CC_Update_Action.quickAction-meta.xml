@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>CC Update Action</label>
     <optionsCreateFeedItem>false</optionsCreateFeedItem>
     <quickActionLayout>
         <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
@@ -33,6 +34,5 @@
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
     </quickActionLayout>
-    <standardLabel>Update</standardLabel>
     <type>Update</type>
 </QuickAction>

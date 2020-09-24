@@ -1,7 +1,7 @@
 global class BatchCaseInserter implements Database.Batchable<SObject> {
     global Database.QueryLocator start(Database.BatchableContext bc) 
     {
-        //Take up to 1000 Closed cases with Parent and Issue Type already populated
+        // Take up to 1000 Closed cases with Parent and Issue Type already populated
         String query = 'SELECT Subject,Description,Parent_Type__c, Type FROM Case Where Status=\'Closed\' and Type!=null and Parent_Type__c!=null LIMIT 1000';
         return Database.getQueryLocator(query);
     }
