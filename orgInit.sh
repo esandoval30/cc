@@ -12,7 +12,7 @@ sfdx force:package:install -p 04t4J000002AU7A --noprompt
 #bulk load Closed Cases
 sfdx force:data:bulk:upsert -s Case -f data/ClosedCases.csv -i External_Id__c
 #bulk load New Cases With Actual Parent & Issue Type!
-sfdx force:data:bulk:upsert -s Case -f data/OpenCases.csv -i External_Id__c -w
+sfdx force:data:bulk:upsert -s Case -f data/OpenCases.csv -i External_Id__c
 
 sfdx force:org:open
 #Id batchInstanceId = Database.executeBatch(new BatchCaseInserter(), 1);
