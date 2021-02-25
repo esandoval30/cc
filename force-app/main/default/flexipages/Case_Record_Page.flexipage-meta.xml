@@ -77,17 +77,6 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
             </componentInstance>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>relatedTabContent</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>title</name>
-                    <value>Standard.Tab.relatedLists</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:tab</componentName>
-            </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
         <name>tabs</name>
