@@ -13,13 +13,13 @@ cd cc
 source orgInit.sh
 ```
 ## Just create the scratch org for me
-Go https://www.platformdemos.com/s/einstein-workshops
-Under "Classify Citizen Requests"
-Click -> "Create Scratch Org"
-Click -> "Click Open Guide" 
+Go https://www.platformdemos.com/s/einstein-workshops <br />
+Under "Classify Citizen Requests" <br />
+Click -> "Create Scratch Org" <br />
+Click -> "Click Open Guide" <br />
 
 Follow step by step instructions to set up Einstein Case Classification. "Create Scratch Org"
 
 
-## Acknoweledgements
+## Acknowledgements
  Thanks to the City Of Baton Rouge for making the original dataset freely available under its "Open Data BR" initiative (https://data.brla.gov/about)
