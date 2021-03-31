@@ -1,6 +1,6 @@
 # Classifying Citizen Requests
 
-Clone this repo to build a scratch org with everything you need to learn about automatically classify cases with Einstein Case Classification. <br />
+Clone this repo to build a scratch org with everything you need to learn about automatically classify cases with Einstein Case Classification. <br /><br />
 You will use a subset of Citizen requests received by the City of Baton Rouge on its 311 service between late March and early October 2020. <br />
 
 
@@ -14,7 +14,7 @@ cd cc
 source orgInit.sh
 ```
 ## Just create the scratch org for me
-Go https://www.platformdemos.com/s/einstein-workshops <br />
+Go https://www.platformdemos.com/s/einstein-workshops <br /><br />
 Under "Classify Citizen Requests" <br />
 Click -> "Create Scratch Org" <br />
 Click -> "Click Open Guide" <br />
