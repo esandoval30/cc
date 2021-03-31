@@ -1,6 +1,7 @@
 # Classifying Citizen Requests
 
-Clone this repo to build a scratch org with everything you need to learn about Einstein Case Classification with open source data made available by the City of Baton Rouge under its "Open Data BR" initiative
+Clone this repo to build a scratch org with everything you need to learn about automatically classify cases with Einstein Case Classification. <br />
+You will use a subset of Citizen requests received by the City of Baton Rouge on its 311 service between late March and early October 2020. <br />
 
 
 ## Build your own scratch org (your own DevHub)
