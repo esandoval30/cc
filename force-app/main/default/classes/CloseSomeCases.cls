@@ -2,6 +2,18 @@ public class CloseSomeCases {
     
     @AuraEnabled
     public static void closeSomeCases() {
+        //Build case type map
+        Map<String,Id> caseTypeMap = new Map<String,Id>();
+        for (case_type__c casetype : [select id, name from Case_Type__c]) {
+            caseTypeMap.put(casetype.name,casetype.id);
+        }
+		//Build parent type map
+        Map<String,Id> parentTypeMap = new Map<String,Id>();
+        for (parent_type__c parentType : [select id, name from Parent_Type__c]) {
+            parentTypeMap.put(parentType.name,parentType.id);
+        }
+
+        
         List<case> cases = [select id, actual_parent_type__c,actual_type__c,  parent_type__c, type, status from Case where status='New' limit 2000];
 
         List<String> parentTypes = new List<String>{'ROAD MAINTENANCE ISSUES','GARBAGE','RECYCLING','MOWING AND TREE ISSUES'};
@@ -14,6 +26,8 @@ public class CloseSomeCases {
             if (Math.random() <= 0.85) {
                 c.parent_type__c = c.actual_parent_type__c;
                 c.Type = c.actual_type__c;
+                c.Parent_Type_Lookup__c = parentTypeMap.get(c.actual_parent_type__c);
+                c.Case_Type_Lookup__c = caseTypeMap.get(c.actual_type__c);
                 actualtypesUsed++;
             } else {
                 Double randomNumber = Math.random(); 
@@ -22,6 +36,8 @@ public class CloseSomeCases {
                 
                 c.parent_type__c = parentTypes[randomIndex];
                 c.Type = caseTypes[randomIndex];
+                c.Parent_Type_Lookup__c = parentTypeMap.get(parentTypes[randomIndex]);
+                c.Case_Type_Lookup__c = caseTypeMap.get(caseTypes[randomIndex]);
                 randomtypesUsed++;
             }
              c.Status = 'Closed';
@@ -32,7 +48,6 @@ public class CloseSomeCases {
         if (cases!=null && cases.size() > 0) {
             update cases;    
         }
-        
     }
 
 }
